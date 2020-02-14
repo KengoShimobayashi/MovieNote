@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">MovieNote</string>
+
+    <!-- TextLabel -->
+    <string name="rating">総合評価</string>
+    <string name="favorite">お気に入り</string>
+    <string name="image_rating">画像・総合評価</string>
+    <string name="title">タイトル</string>
+    <string name="mainTitle">メイン</string>
+    <string name="subtitle">サブ</string>
+    <string name="furigana">ふりがな</string>
+    <string name="director">監督</string>
+    <string name="actor">主演</string>
+    <string name="genreName">ジャンル</string>
+    <string name="country">邦画・洋画</string>
+    <string name="hint">ヒント</string>
+    <string name="etc">その他</string>
+    <string name="add">追加</string>
+    <string name="search">検索</string>
+    <string name="clear">条件解除</string>
+
+    <!-- MovieData Dialog -->
+    <string name="modify">編集</string>
+
+    <!-- Button -->
+    <string name="save">保存</string>
+    <string name="settingView">設定</string>
+
+    <!-- Index Text -->
+    <string name="IndexNumber">No.</string>
+    <string name="IndexEtc">etc</string>
+    <string name="IndexException">error?</string>
+
+    <!-- Error -->
+    <string name="errorNoTitle">タイトルを入力してください!</string>
+    <string name="errorLimitChar">不適切な入力があります!</string>
+
+    <!-- Dialog Button -->
+    <string name="postiveButtonText">OK</string>
+    <string name="negativeButtonText">Cancel</string>
+
+    <!-- Add Genre Dialog -->
+    <string name="addGenreTitle">削除</string>
+    <string name="addGenreMessage">追加するジャンルを入力してください。</string>
+
+    <!-- Delete Dialog -->
+    <string name="deleteTitle">削除</string>
+    <string name="deleteMessage">映画を削除しますか</string>
+
+    <!-- Initial Genre -->
+    <string-array name="genre">
+        <item>アクション</item>
+        <item>SF</item>
+        <item>ラブロマンス</item>
+        <item>ドラマ</item>
+        <item>ドキュメンタリー</item>
+        <item>ミステリー/サスペンス</item>
+        <item>ホラー</item>
+    </string-array>
+
+    <!-- Country -->
+    <string-array name="countryType">
+        <item>洋画</item>
+        <item>邦画</item>
+    </string-array>
+
+    <!-- TabLayout Title -->
+    <string-array name="tabLayoutName">
+        <item>映画</item>
+        <item>カテゴリ</item>
+    </string-array>
+
+    <!-- ListlongClick dialog -->
+    <string-array name="listlongClick">
+        <item>編集</item>
+        <item>削除</item>
+    </string-array>
+
+    <!-- Add Image -->
+    <string-array name="addImage_No">
+        <item>フォルダから画像を選択</item>
+    </string-array>
+
+    <string-array name="addImage_Set">
+        <item>フォルダから画像を選択</item>
+        <item>画像を削除</item>
+    </string-array>
+
+</resources>

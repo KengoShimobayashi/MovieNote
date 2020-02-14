@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Custom ActionBarStyle -->
+        <item name="actionBarStyle">@style/ActionBarStyle</item>
+    </style>
+
+    <!-- Custom ActionBarStyle -->
+    <style name="ActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/mainActionBarColor</item>
+        <item name="titleTextStyle">@style/ActionBarTitleStyle</item>
+    </style>
+
+    <!-- Custom ActionBarTitleStyle -->
+    <style name="ActionBarTitleStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/mainAvtionBarTextColor</item>
+    </style>
+
+    <!-- TabLayout -->
+    <style name="TabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <!-- RatingBar -->
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/ratingNormalColor</item>
+        <item name="colorControlActivated">@color/ratingSpotColor</item>
+    </style>
+
+    <!-- Favortie -->
+    <style name="Favortie" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/ratingNormalColor</item>
+        <item name="colorControlActivated">@color/favoriteSpotColor</item>
+    </style>
+
+    <style name="movieList_index" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/textcolor_blue</item>
+    </style>
+
+</resources>

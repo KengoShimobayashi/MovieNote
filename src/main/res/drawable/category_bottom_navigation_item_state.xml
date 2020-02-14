@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- チェック状態 -->
+    <item android:color="@color/BTIselectedColor"
+          android:state_checked="true"/>
+    <!-- タップしたとき -->
+    <item android:color="@color/BTIselectedColor"
+          android:state_pressed="true"/>
+    <!-- 通常 -->
+    <item android:color="@color/BTIunSelectedColor"/>
+</selector>

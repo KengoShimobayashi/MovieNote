@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <FrameLayout
+            android:id="@+id/allMovieList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/frameLayout_navigationView"
+            app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <LinearLayout
+            android:id="@+id/frameLayout_navigationView"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="bottom"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+                android:id="@+id/btn_add"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/bottomnavigationview_view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/add"
+                android:textColor="@color/BTIselectedColor"
+                android:drawableTop="@drawable/ic_add_35dp"/>
+
+        <Button
+                android:id="@+id/btn_search"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/bottomnavigationview_view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/search"
+                android:textColor="@color/BTIselectedColor"
+                android:drawableTop="@drawable/ic_search_35dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

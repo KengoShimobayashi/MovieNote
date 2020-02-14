@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#002A57</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- MainActionBarColor -->
+    <color name="mainActionBarColor">#25BEBEBE</color>
+    <color name="mainAvtionBarTextColor">#000000</color>
+
+    <!--TabLayout Color  -->
+    <color name="tabLayoutColor">#D5FFFFFF</color>
+    <color name="selectedTextColor">#000000</color>
+    <color name="unselectedTextColor">#48000000</color>
+    <color name="tabIndicatorColor">#000C57</color>
+
+    <!-- FABColor -->
+    <color name="FABColor">#000C92</color>
+
+    <!-- BottomNavigationItem Color -->
+    <color name="BTIselectedColor">#FFFFFF</color>
+    <color name="BTIunSelectedColor">#A8A8A8A8</color>
+    <color name="bnvLayoutColor">#000C92</color>
+
+    <!-- ratinng color -->
+    <color name="ratingSpotColor">#FF970E</color>
+    <color name="ratingNormalColor">#929292</color>
+
+    <!-- favorite color -->
+    <color name="favoriteSpotColor">#D81B60</color>
+
+    <!-- Register Movie Data Dialog -->
+    <color name="movieDataLine">#555555</color>
+    <color name="titleBar">#000FB8</color>
+    <color name="titleTextColor">#FFFFFF</color>
+
+    <color name="textcolor_blue">#A9000C7A</color>
+    <color name="backgroundColor_blue">#70329BFF</color>
+</resources>
