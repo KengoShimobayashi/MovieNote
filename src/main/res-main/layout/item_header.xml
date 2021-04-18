@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+                name="content"
+                type="com.movienote.android.ui.main.ViewItem.HeaderItem"/>
+    </data>
+
+    <LinearLayout
+            android:id="@+id/item_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/item_index"
+                android:text="@{content.mainValue}"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/movieList_index"
+                android:background="@color/backgroundColor_blue"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp" />
+
+    </LinearLayout>
+
+</layout>

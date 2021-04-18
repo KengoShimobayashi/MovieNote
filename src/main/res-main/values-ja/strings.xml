@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+    <string name="menu_registernum">登録件数</string>
+    <string name="menu_data">登録情報</string>
+    <string name="menu_movie">映画</string>
+    <string name="menu_director">監督</string>
+    <string name="menu_actor">俳優</string>
+    <string name="menu_genre">ジャンル</string>
+    <string name="menu_setting">設定</string>
+    <string name="menu_help">ヘルプ</string>
+    <string name="menu_appinfo">アプリ情報</string>
+    <string name="menu_delete">削除</string>
+    <string name="txt_noMovieDatas">登録されている映画情報はありません!</string>
+    <string name="txt_noDirectorDatas">登録されている監督情報はありません!</string>
+    <string name="txt_noActorDatas">登録されている主演情報はありません!</string>
+    <string name="txt_noGenreDatas">登録されているジャンル情報はありません!</string>
+    <string name="txt_addMovieData">登録する +</string>
+    <string name="menu_search">検索</string>
+    <string name="txt_noSearchMovieData">該当する映画情報はありません！</string>
+    <string name="menu_searchResult">検索結果</string>
+    <string name="menu_country">制作国</string>
+    <string name="txt_noCountryDatas">登録されている制作国情報はありません!</string>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+                name="view"
+                type="com.movienote.android.ui.main.MainFragment" />
+
+        <variable
+                name="mainViewModel"
+                type="com.movienote.android.ui.main.MainViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+                android:id="@+id/tasksContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:id="@+id/tasksLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="@{mainViewModel.items.isEmpty ? View.GONE : View.VISIBLE}">
+
+                <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/data_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:items="@{mainViewModel.items}"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/noTasks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical"
+                    android:visibility="@{mainViewModel.items.isEmpty ? View.VISIBLE : View.GONE}">
+
+
+                <ImageView
+                        android:id="@+id/noTasksIcon"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_black_add" />
+
+                <TextView
+                        android:id="@+id/noTasksMain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@{mainViewModel.noDatasLabel}"
+                        android:layout_marginBottom="8dp"/>
+
+                <TextView
+                        android:id="@+id/noTasksAdd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/txt_addMovieData"
+                        android:onClick="@{() -> mainViewModel.addNewMovieData()}"
+                        android:visibility="@{mainViewModel.tasksAddViewVisible ? View.VISIBLE : View.GONE}" />
+
+            </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fab_addMovieData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:clickable="true"
+                    android:visibility="@{mainViewModel.tasksAddViewVisible ? View.VISIBLE : View.GONE}"
+                    app:tint="@android:color/white"
+                    android:src="@drawable/ic_fab_add"
+                    app:backgroundTint="@color/buttonColorDefault"
+                    app:fabSize="normal"
+                    app:layout_anchorGravity="bottom|right|end"
+                    app:useCompatPadding="true"
+                    android:contentDescription="TODO" />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

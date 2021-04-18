@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Action Bar Title -->
+    <string name="actionBar_title_edit">Edit</string>
+    <string name="actionBar_title_add">Add</string>
+    <string name="actionBar_optionMenu_save">Save</string>
+
+    <!-- Edit View Lable -->
+    <string name="rating">Rating</string>
+    <string name="favorite">Favorite</string>
+    <string name="image_rating">Image\Rating</string>
+    <string name="title">Title</string>
+    <string name="mainTitle">Main</string>
+    <string name="subtitle">Sub</string>
+    <string name="furigana">Furigana</string>
+    <string name="director">Director</string>
+    <string name="actor">Actor</string>
+    <string name="genre">Genre</string>
+    <string name="country">Country</string>
+    <string name="btn_new">new</string>
+    <string name="hint">Hint</string>
+    <string name="etc">Etc</string>
+
+    <!-- Error -->
+    <string name="errorNoTitle">Please enter title!</string>
+    <string name="errorNoDirector">Please enter Director!</string>
+    <string name="errorNoActor">Please enter Actor!</string>
+    <string name="errorNoGenre">Please enter Genre!</string>
+    <string name="errorNoCountry">Please enter Country!</string>
+    <string name="errorLimitChar">Only number alphabet is available!</string>
+
+</resources>

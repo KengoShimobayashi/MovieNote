@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="actionBar_title_edit">編集</string>
+    <string name="actionBar_title_add">追加</string>
+    <string name="actionBar_optionMenu_save">保存</string>
+    <string name="rating">評価</string>
+    <string name="favorite">お気に入り</string>
+    <string name="image_rating">画像\\お気に入り</string>
+    <string name="title">タイトル</string>
+    <string name="mainTitle">メイン</string>
+    <string name="subtitle">サブ</string>
+    <string name="furigana">ふりがな</string>
+    <string name="director">監督</string>
+    <string name="actor">主演</string>
+    <string name="genre">ジャンル</string>
+    <string name="country">制作国</string>
+    <string name="btn_new">new</string>
+    <string name="hint">ヒント</string>
+    <string name="etc">etc.</string>
+    <string name="errorNoTitle">メインタイトルを入力してください!</string>
+    <string name="errorLimitChar">ひらがな、英字、数字、・、ーのみが入力可能です!</string>
+    <string name="errorNoDirector">監督名入力してください!</string>
+    <string name="errorNoActor">主演名を入力してください!</string>
+    <string name="errorNoGenre">ジャンルを入力してください!</string>
+    <string name="errorNoCountry">制作国を入力しください!</string>
+</resources>

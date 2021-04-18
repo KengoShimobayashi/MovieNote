@@ -4,6 +4,21 @@
     <color name="colorPrimaryDark">#002A57</color>
     <color name="colorAccent">#D81B60</color>
 
+    <color name="toolBarColor">#004187</color>
+
+    <color name="clearButtonPressed">#33000000</color>
+
+    <!-- Dialog button text color -->
+    <color name="dialogButtonEnableColor">#C9CEFF</color>
+    <color name="dialogButtonAbleColor">#0016DF</color>
+
+    <!-- Button color -->
+    <color name="buttonColorDefault">#004187</color>
+
+    <!-- TextInputLayout -->
+    <color name="TextInputLayout_focusColor">#DA0051FF</color>
+    <color name="TextInputLayout_erroColor">#7AFF0000</color>
+
     <!-- MainActionBarColor -->
     <color name="mainActionBarColor">#25BEBEBE</color>
     <color name="mainAvtionBarTextColor">#000000</color>
@@ -13,9 +28,6 @@
     <color name="selectedTextColor">#000000</color>
     <color name="unselectedTextColor">#48000000</color>
     <color name="tabIndicatorColor">#000C57</color>
-
-    <!-- FABColor -->
-    <color name="FABColor">#000C92</color>
 
     <!-- BottomNavigationItem Color -->
     <color name="BTIselectedColor">#FFFFFF</color>
@@ -36,4 +48,6 @@
 
     <color name="textcolor_blue">#A9000C7A</color>
     <color name="backgroundColor_blue">#70329BFF</color>
+
+    <color name="dialogButtonPressed">#C0D4FF</color>
 </resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieNote</string>
+    <string name="dataBaseFileName">Movies-jp.db</string>
+    <string name="IndexNumber">No.</string>
+    <string name="IndexEtc">etc</string>
+    <string name="IndexException">error?</string>
+    <string name="postiveButtonText">OK</string>
+    <string name="negativeButtonText">キャンセル</string>
+    <string name="addGenreMessage">追加するジャンルを入力してください。</string>
+    <string name="addCountryMessage">追加する制作国を入力してください。</string>
+    <string name="clear">クリア</string>
+</resources>

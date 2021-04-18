@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_title">検索条件</string>
+    <string name="actionBar_optionMenu_search">検索</string>
+    <string name="mainTitleForSearch">メインタイトル</string>
+    <string name="ratingFormat">%1$s~</string>
+
+</resources>

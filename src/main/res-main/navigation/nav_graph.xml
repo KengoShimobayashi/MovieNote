@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/nav_graph"
+        app:startDestination="@id/menu_moviedata">
+
+    <fragment
+            android:id="@+id/menu_moviedata"
+            android:name="com.movienote.android.ui.main.MainFragment"
+            android:label="@string/menu_movie">
+
+        <action
+                android:id="@+id/filteredmovieDataFragment"
+                app:destination="@id/filteredmovieDataFragment"/>
+    </fragment>
+
+    <fragment
+            android:id="@+id/menu_director"
+            android:name="com.movienote.android.ui.main.MainFragment"
+            android:label="@string/menu_director"/>
+
+    <fragment
+            android:id="@+id/menu_actor"
+            android:name="com.movienote.android.ui.main.MainFragment"
+            android:label="@string/menu_actor"/>
+
+    <fragment
+            android:id="@+id/menu_genre"
+            android:name="com.movienote.android.ui.main.MainFragment"
+            android:label="@string/menu_genre" />
+
+    <fragment
+            android:id="@+id/menu_country"
+            android:name="com.movienote.android.ui.main.MainFragment"
+            android:label="@string/menu_country"/>
+
+    <fragment
+            android:id="@+id/menu_setting"
+            android:name="com.movienote.android.ui.main.SettingsFragment"
+            android:label="@string/menu_setting"/>
+
+    <fragment
+            android:id="@+id/menu_help"
+            android:name="com.movienote.android.ui.main.HelpFragment"
+            android:label="@string/menu_help"/>
+
+    <fragment
+            android:id="@+id/menu_appinfo"
+            android:name="com.movienote.android.ui.main.InfoFragment"
+            android:label="@string/menu_appinfo"/>
+
+    <fragment
+        android:id="@+id/filteredmovieDataFragment"
+        android:name="com.movienote.android.ui.main.MainFragment"
+        android:label="@string/menu_searchResult"/>
+
+</navigation>

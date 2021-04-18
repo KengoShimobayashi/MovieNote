@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- drawer DrawerContentDescRes-->
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+
+    <!-- NV menu -->
+    <string name="menu_registernum">Regeist Num</string>
+    <string name="menu_data">Data</string>
+    <string name="menu_movie">Movie</string>
+    <string name="menu_director">Director</string>
+    <string name="menu_actor">Actor</string>
+    <string name="menu_genre">Genre</string>
+    <string name="menu_country">Country</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_appinfo">AppInfo</string>
+
+    <!-- option menu titel -->
+    <string name="menu_delete">Delete</string>
+    <string name="menu_search">Search</string>
+
+    <!-- No data text -->
+    <string name="txt_noMovieDatas">You have no Movie Datas!</string>
+    <string name="txt_noDirectorDatas">You have no Director Datas!</string>
+    <string name="txt_noActorDatas">You have no Actor Datas!</string>
+    <string name="txt_noGenreDatas">You have no Genre Datas!</string>
+    <string name="txt_noCountryDatas">You have no Country Datas!</string>
+    <string name="txt_addMovieData">Add a Movie Data +</string>
+    <string name="txt_noSearchMovieData">There is no applicable movie data!</string>
+
+    <string name="menu_searchResult">SearchResult</string>
+
+</resources>

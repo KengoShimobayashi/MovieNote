@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -9,6 +9,7 @@
 
         <!-- Custom ActionBarStyle -->
         <item name="actionBarStyle">@style/ActionBarStyle</item>
+
     </style>
 
     <!-- Custom ActionBarStyle -->
@@ -43,6 +44,11 @@
     <style name="movieList_index" parent="Widget.AppCompat.EditText">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/textcolor_blue</item>
+    </style>
+
+    <style name="dialogButton" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textColor">@color/textcolor_blue</item>
+        <item name="android:background">@drawable/dialog_button_bg</item>
     </style>
 
 </resources>

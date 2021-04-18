@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="search_title">Condition</string>
+    <string name="actionBar_optionMenu_search">Search</string>
+
+    <string name="mainTitleForSearch">MainTitle</string>
+    <string name="ratingFormat">%1$s~</string>
+
+</resources>

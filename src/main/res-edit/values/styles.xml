@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="Hint" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/TextInputLayout_focusColor</item>
+    </style>
+
+    <style name="Error" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="EditText.OutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextColor">@color/TextInputLayout_focusColor</item>
+        <item name="errorTextColor">@color/TextInputLayout_erroColor</item>
+        <item name="boxStrokeColor">@color/TextInputLayout_focusColor</item>
+    </style>
+
+</resources>
