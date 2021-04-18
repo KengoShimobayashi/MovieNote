@@ -134,7 +134,7 @@ class MainFragment : Fragment() {
                 this.mViewModel.onStartSearch()
             }
         }
-        return super.onOptionsItemSelected(item);
+        return super.onOptionsItemSelected(item)
     }
 
     // setViewModel
